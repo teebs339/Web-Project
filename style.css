@@ -1,3 +1,36 @@
-.redColor{
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: brown;
+    font-size: 40px;
+}
+
+#paragraph {
+    color: blueviolet;
+    text-decoration: underline;
+    font-family: "AudioWide";
+}
+
+
+/* used on the paragraphs */
+.intro {
+    color: #666;
+    font-size: 40px;
+    font-family: "AudioWide";
+}
+
+
+
+.redColor {
     color: red;
+}
+
+/* apply advent pro font to all headings*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "AudioWide";
 }

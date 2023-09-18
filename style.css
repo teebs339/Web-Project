@@ -12,7 +12,7 @@ h1 {
 #paragraph {
     color: blueviolet;
     text-decoration: underline;
-    font-family: "AudioWide";
+    font-family: "calibri";
 }
 
 
@@ -20,7 +20,7 @@ h1 {
 .intro {
     color: #666;
     font-size: 40px;
-    font-family: "AudioWide";
+    font-family: "calibri";
 }
 
 .webdev-image {  /*<!-- this is for bigger screens */
@@ -37,21 +37,95 @@ h1 {
     }
 }
 
+.whitecolor {
+    color: white;
+}
+
 .redColor {
-    color: red;
+    color: white;
 }
 
 /* apply advent pro font to all headings*/
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "AudioWide";
+    font-family: "calibri";
+    font-size: 40px;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 40px;
+    font-family: "calibri";
 }
 
 .example {
     font-size: 25px;
-    font-family: "AudioWide";
-    background-color: #f0f0f0;
+    font-family: "calibri";
+    background-color: lightgreen;
     border: 1px solid #999;
     padding: 60px;
     margin: 10px;
+}
+
+.snapchat-image {
+    border: 5px solid yellow;
+    text-align: center;
+    display: block;
+    margin: 50px auto;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.snapchat-image:hover {
+    border: 5px solid yellow;
+    border-radius: 20px;
+    box-shadow: 5px 8px 60px  grey;
+
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 4px grey;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-image {
+    background-image: url(./Images/building.jpg) ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-shadow: 2px 5px 10px black;;
+    margin: 50px auto;
+    padding: 250px 0px;
+    /* color: white; */
+}
+
+.bg-image h2 {
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.parallax {
+    /* color: white; */
+    height: 50vh;
+    background-image: url(./Images/waves.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;  
+}
+
+.parallex-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    /* color: white; */
+    padding: 50px;
+    font-size: 100px;
+    font-family: "calibri";
 }

@@ -23,7 +23,19 @@ h1 {
     font-family: "AudioWide";
 }
 
+.webdev-image {  /*<!-- this is for bigger screens */
+    display: block;
+    margin: 20px auto 20px auto;
+    max-width: 50%; /*this will only take 50% of the width of the screen */
 
+}
+
+@media only screen and (max-width: 600px) {
+    .webdev-image { 
+        max-width: 100%;
+        margin: 10px auto;
+    }
+}
 
 .redColor {
     color: red;
@@ -33,4 +45,13 @@ h1 {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "AudioWide";
+}
+
+.example {
+    font-size: 25px;
+    font-family: "AudioWide";
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    padding: 60px;
+    margin: 10px;
 }
